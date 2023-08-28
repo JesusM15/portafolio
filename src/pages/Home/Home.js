@@ -12,9 +12,10 @@ const Home = () =>{
         strings: ["Frontend", "Backend", "Databases", "UI/UX", "SEO"], // Strings to display
         // Speed settings, try diffrent values untill you get good results
         startDelay: 300,
-        typeSpeed: 100,
-        backSpeed: 100,
-        backDelay: 100
+        typeSpeed: 150,
+        backSpeed: 150,
+        backDelay: 150,
+        loop: true,
       });
   
       // Destropying
@@ -31,9 +32,9 @@ const Home = () =>{
                         <h2 className="text-white text-7xl">
                             Hi, I&#39;m <span className={`text-purple-500 ${classes.spanText}`}>Jesus</span>
                         </h2>
-                        <p className="italic text-white text-2xl opacity-70" ref={textTitles}>
-                            
-                        </p>
+                        <span className="italic text-white text-2xl opacity-70" ref={textTitles}>
+                            Frontend
+                        </span>
                         <p className="mt-3 text-gray-400 text-base opacity-70 max-w-md">
                             In this website you&#39;ll see my skills and projects as a Software developer. 
                         </p>
