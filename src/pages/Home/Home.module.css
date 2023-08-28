@@ -1,0 +1,51 @@
+.astronautContainer{
+    width: fit-content;
+    height: 100%;
+    padding: 2em;
+    background: url('./../../media/planeta.png');
+    background-size: contain;
+    opacity: 0.9;
+    border-radius: 50%;
+    box-shadow: 3px 1px 13px 3px #7028b9;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    transition: transform 0.6s;
+}
+
+.astronautContainer:hover{
+    transform: scale(1.01);
+}
+  
+.astronautContainer > img{
+    animation-name: astronaut;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+  
+.spanText{
+    background: linear-gradient(#7028b9, #41146e, #290c45);
+    -webkit-background-clip: text;
+    color: transparent;  
+}
+
+.btnIcon{
+    transition: background 0.6s, box-shadow 0.6s;
+}
+
+.btnIcon:hover{
+    background: #6423a5;
+    box-shadow: 2px 1px 8px 5px var(--second-bg-color);
+}
+
+
+@keyframes astronaut {
+    from{
+        transform: scale(1) rotate(-5deg);
+        padding-top: 1px;
+    }
+    to{
+        padding-top: 1px;
+        transform: scale(1.02) rotate(10deg);
+    }
+};
