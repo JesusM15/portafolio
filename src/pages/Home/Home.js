@@ -23,9 +23,17 @@ const Home = () =>{
         typed.destroy();
       };
     }, []);
+
+    // const [ cursorX, setCursorX ] = useState();
+    // const [ cursorY, setCursorY ] = useState();
+
+    // window.addEventListener('mousemove', (e) =>{
+    //     setCursorX(e.pageX);
+    //     setCursorY(e.pageY);
+    // });
     
     return(
-        <section id="home" className="flex items-center w-full p-4">
+        <section id="home" className="flex items-center w-full px-4">
                 <div className="flex items-center flex-row w-full justify-around">
 
                     <div>
@@ -48,6 +56,9 @@ const Home = () =>{
                         <img src={astronaut} className="h-72 w-auto" />
                     </div>
 
+                    {/* <div className={classes.cursor} style={{ left: cursorX + 'px', top: cursorY + 'px' }}>
+
+                    </div> */}
             </div>
         </section>
     );

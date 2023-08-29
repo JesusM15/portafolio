@@ -38,10 +38,15 @@
     box-shadow: 2px 1px 8px 5px var(--second-bg-color);
 }
 
-.cursor{
+/* .cursor{
+    z-index: -1;
     width: 20px;
     height: 20px;
-}
+    box-shadow: 2px -1px 20px 16px #6423a5;
+    background: #6423a5;
+    position: fixed;
+    border-radius: 50%;
+} */
 
 
 @keyframes astronaut {
