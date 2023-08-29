@@ -11,7 +11,7 @@ const Skills = () =>{
     }, []);
 
     return(
-        <section id="skills" class=" max-w-full flex items-center justify-start w-full flex-col flex-wrap gap-16" data-aos="fade-up" data-aos-duration="1000">
+        <section id="skills" class=" max-w-full flex items-center justify-start w-full flex-col flex-wrap gap-16 overflow-x-hidden" data-aos="fade-up" data-aos-duration="1000">
             {/* <h3 className={`text-white text-center text-5xl flex h-fit ${classes.textDegrade}`}>
                 Skills
             </h3> */}

@@ -34,9 +34,9 @@ const Home = () =>{
     
     return(
         <section id="home" className="flex items-center w-full px-4">
-                <div className="flex items-center flex-row w-full justify-around">
+                <div className="flex items-center flex-col lg:flex-row w-full justify-around lg:gap-0 gap-6">
 
-                    <div>
+                    <div className="flex flex-col lg:block items-center text-center lg:text-left">
                         <h2 className="text-white text-7xl">
                             Hi, I&#39;m <span className={`text-purple-500 ${classes.spanText}`}>Jesus</span>
                         </h2>
@@ -52,7 +52,7 @@ const Home = () =>{
                             </a>
                         </div>
                     </div>
-                    <div className={classes.astronautContainer}>
+                    <div className={`${classes.astronautContainer}`}>
                         <img src={astronaut} className="h-72 w-auto" />
                     </div>
 

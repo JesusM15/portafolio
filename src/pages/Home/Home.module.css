@@ -1,7 +1,7 @@
 .astronautContainer{
     width: fit-content;
     height: 100%;
-    padding: 2em;
+    padding: 0;
     background: url('./../../media/planeta.png');
     background-size: contain;
     opacity: 0.9;
@@ -59,3 +59,10 @@
         transform: scale(1.02) rotate(10deg);
     }
 };
+
+
+@media screen and (min-width: 1024px) {
+    .astronautContainer{
+        padding: 2em !important;
+    }
+}
