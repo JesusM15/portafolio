@@ -38,6 +38,11 @@
     box-shadow: 2px 1px 8px 5px var(--second-bg-color);
 }
 
+.cursor{
+    width: 20px;
+    height: 20px;
+}
+
 
 @keyframes astronaut {
     from{
