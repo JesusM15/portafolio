@@ -1,0 +1,18 @@
+.textDegrade{
+    background: linear-gradient(70deg, #7028b9, #41146e, #290c45);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.mainDiv::after{
+    content: '';
+    background: linear-gradient(70deg, #7028b9, #41146e, #290c45);
+    width: 4px;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    height: 100%;
+    border-radius: 10px;
+}
