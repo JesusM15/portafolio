@@ -40,7 +40,7 @@ const Home = () =>{
                         <h2 className="text-white text-7xl">
                             Hi, I&#39;m <span className={`text-purple-500 ${classes.spanText}`}>Jesus</span>
                         </h2>
-                        <span className="italic text-white text-2xl opacity-70" ref={textTitles}>
+                        <span className="italic text-white text-2xl opacity-70 lg:h-auto h-4" ref={textTitles}>
                             Frontend
                         </span>
                         <p className="mt-3 text-gray-400 text-base opacity-70 max-w-md">
