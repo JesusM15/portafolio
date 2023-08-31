@@ -35,7 +35,7 @@
 
 .btnIcon:hover{
     background: #6423a5;
-    box-shadow: 2px 1px 8px 5px var(--second-bg-color);
+    box-shadow: 2px 1px 8px 2px var(--second-bg-color);
 }
 
 /* .cursor{
