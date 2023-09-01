@@ -11,8 +11,8 @@ const Skills = () =>{
     }, []);
 
     return(
-        <section id="skills" class=" max-w-full flex lg:justify-around lg:px-12 items-center justify-center w-full flex-row flex-wrap gap-16 lg:gap-0 overflow-x-hidden" data-aos="fade-up" data-aos-duration="1000">
-            <div className="hidden lg:flex flex-col self-stat py-24 max-w-md" data-aos="fade-up" data-aos-duration="1200">
+        <section id="skills" class=" max-w-full flex lg:justify-around lg:px-12 items-center justify-center w-full flex-row flex-wrap gap-16 lg:gap-0 overflow-x-hidden">
+            <div className="hidden lg:flex flex-col self-stat py-24 max-w-md">
                 <h3 className={`text-4xl italic uppercase text-start font-bold text-white`}>
                     About me
                 </h3>
@@ -28,7 +28,7 @@ const Skills = () =>{
             <div className={`flex flex-row gap-y-12 gap-x-12 relative ${classes.mainDiv}`}>
                 <div className={`flex gap-4 lg:gap-6 flex-col`}>
                     {data.map(( { name, icon, experience } )=>(
-                        <div className={`flex flex-nowrap items-start flex-col`} data-aos="fade-right" data-aos-duration="1200">
+                        <div className={`flex flex-nowrap items-start flex-col`} data-aos="fade-right" data-aos-duration="1000">
                             <div className="flex flex-nowrap gap-2 items-center text-3xl lg:text-4xl">
                                 { icon }
                                 { name }
